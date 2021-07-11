@@ -2,32 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Irving Rodríguez | Stats preview card component</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  Get insights that help your business grow.
+  <div class="container">
+    <div class="card">
+      <div class="card-header"></div>
+      <div class="card-information">
+        <h1 class="card-information-title">
+          Get <span>insights</span> that help your business grow.
+        </h1>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+        <p class="card-information-text">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.
+        </p>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+        <div class="card-statistics">
+          <div class="card-statistics-statistic">
+            <span class="card-statistics-statistic-number">10k+</span>
+            <p class="card-statistics-statistic-text">companies</p>
+          </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+          <div class="card-statistics-statistic">
+            <span class="card-statistics-statistic-number">314</span>
+            <p class="card-statistics-statistic-text">templates</p>
+          </div>
+
+          <div class="card-statistics-statistic">
+            <span class="card-statistics-statistic-number">12M+</span>
+            <p class="card-statistics-statistic-text">queries</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Irving Rodríguez Romero</a>.
+  </div> -->
 </body>
 </html>
